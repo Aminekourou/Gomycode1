@@ -1,0 +1,29 @@
+.body {
+    background: url("./img1.jpg") no-repeat;
+    background-size: cover;
+
+}
+
+.section {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 8em;
+    padding-top: 8em;
+    color: white;
+    width: 500px;
+}
+
+.section-div {
+    color: white;
+    width: 50%;
+
+}
+
+.section-bouton {
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    border-radius: 3px;
+    padding: 5px 10px;
+}
