@@ -1,0 +1,41 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2em;
+    align-items: center;
+    background-color: #ddd;
+}
+
+.navbar_items-link {
+    padding-right: 1em;
+    padding-left: 1em;
+    text-decoration: none;
+    background-color: antiquewhite;
+    color: black;
+}
+
+.container {
+    width: 60%;
+    margin-left: 20em;
+
+}
+
+.container1 {
+    text-align: center;
+
+}
+
+.footer {
+    padding-top: 4em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #ddd;
+}
