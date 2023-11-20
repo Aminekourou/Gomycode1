@@ -1,0 +1,84 @@
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    width: 60%;
+    margin: auto;
+    height: 70vh;
+    gap: 10px;
+}
+
+.cards div {
+    border-width: thin;
+    border-color: rgba(117, 117, 102, 0.064);
+    border-style: solid;
+    box-shadow: 2px 2px rgba(117, 117, 102, 0.064);
+}
+
+.card1 {
+    grid-area: 2/1 / span 2;
+    position: relative;
+    padding-left: 2em;
+    padding-top: 1em;
+}
+
+.card2 {
+    grid-area: 1/2 / span 2;
+    position: relative;
+    padding-left: 2em;
+    padding-top: 1em;
+}
+
+.card3 {
+    grid-area: 3/2 / span 2;
+    position: relative;
+    padding-left: 2em;
+    padding-top: 1em;
+}
+
+.card4 {
+    grid-area: 2/3 / span 2;
+    position: relative;
+    padding-left: 2em;
+    padding-top: 1em;
+}
+
+.cards .card1 {
+    border-top: solid rgb(81, 224, 56);
+
+}
+
+.cards .card2 {
+    border-top: solid rgb(104, 5, 8);
+
+}
+
+.cards .card3 {
+    border-top: solid rgb(224, 92, 40);
+
+}
+
+.cards .card4 {
+    border-top: solid rgb(19, 19, 234);
+
+}
+
+h1 {
+    color: rgb(8, 8, 79);
+    font-size: larger;
+}
+
+p {
+    color: rgba(201, 201, 196, 0.822);
+    font-size: medium;
+}
+
+img {
+    width: 20%;
+    height: 20%;
+    position: absolute;
+    bottom: 40px;
+    right: 20px;
+    font-size: 18px;
+  
+}
