@@ -1,0 +1,6 @@
+@use "./flex" as *;
+
+.nav {
+    @extend %flex;
+
+}
