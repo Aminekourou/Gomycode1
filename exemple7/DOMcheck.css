@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+#cart {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.item {
+  margin-bottom: 10px;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  margin-left: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.btn.like {
+  color: black;
+}
+
+.btn.like.liked {
+  color: red;
+}
